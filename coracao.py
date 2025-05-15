@@ -41,7 +41,7 @@ anim = FuncAnimation(
     fig,
     animate,
     frames=total_frames,
-    interval=30,  # controla a velocidade geral da animação
+    interval=60,  # controla a velocidade geral da animação
     blit=True,
     repeat=True
 )
